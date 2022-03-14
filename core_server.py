@@ -10,10 +10,13 @@ import ew
 import navigation
 import safety
 import log
+import bite
 
-# class Controle(self):
-#     self.latAtual = 24.0
-#     self.longAtual = 43.0
-#     self.waypoints = []
+class Controle(self):
+    self.latAtual = 24.0
+    self.longAtual = 43.0
+    self.waypoints = []
+    self.nivelBateria = 1.0
+
 
 
