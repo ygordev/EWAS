@@ -27,7 +27,7 @@ def getFile(type):
 
 def logWrite(type, info):
     file = getFile(type)
-    date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    date = datetime.now().strftime('%d-%m-%Y %H:%M:%S')
     with open(file, 'a') as fileHandler:
         fileHandler.write("{} - {}\n".format(date, info))
 

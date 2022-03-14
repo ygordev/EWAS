@@ -5,11 +5,11 @@
 
 import socket
 
-localIP     = "127.0.0.1"
-localPort   = 20001
-bufferSize  = 1024
-msgFromServer       = "Hello UDP Client! The server is sending a message"
-bytesToSend         = str.encode(msgFromServer)
+localIP = "127.0.0.1"
+localPort = 20001
+bufferSize = 1024
+msgFromServer = "Hello UDP Client! The server is sending a message"
+bytesToSend = str.encode(msgFromServer)
 
 # Create a datagram socket
 UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
