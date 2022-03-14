@@ -24,7 +24,7 @@ import safety
 # type 4: safety
 # type 5: comm_server
 
-def logWrite(type, info):
+def getFile(type):
     if type == 0:
         file = 'core_server.txt'
     elif type == 1:
@@ -37,10 +37,15 @@ def logWrite(type, info):
         file = 'safety.txt'
     elif type == 5:
         file = 'comm_server.txt'
+    return file
 
+def logWrite(type, info):
+    file = getFile(type)
     date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open(file, 'a') as fileHandler:
         fileHandler.write("{} - {}\n".format(date, info))
 
-logWrite(2, "Testando 4!")
-logWrite(3, "Testando nav!")
+def resetLogs(type):
+    file = getFile(type)
+    os.remove(file)
+    print("{} removido!\n".format(file))
