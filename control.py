@@ -11,4 +11,3 @@ class Atuacao(self):
 
     def converterVelocparaRPM(veloc):
         pass
-
