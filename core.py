@@ -1,7 +1,7 @@
 # EWAS v0.1
 # Módulo Principal
 
-import communications
+import communications_server
 import control
 import ew
 import navigation
