@@ -15,11 +15,10 @@
         ("Target Reference", "reference"), # R, null otherwise
         ("Timestamp (UTC)", "timestamp", timestamp),
         ("Acquisition Type", "acquisition"),  # A / M (Automatic / Manual)
-    )
 
 ## Descrição dos atributos de uma mensagem NMEA HDT
-("Heading", "heading", Decimal),
-("True", "hdg_true"),
+        ("Heading", "heading", Decimal),
+        ("True", "hdg_true"),
 
 ## Descrição dos atributos de uma mensagem NMEA GPRMC
         ("Timestamp", "timestamp", timestamp),
@@ -32,5 +31,5 @@
         ("True Course", "true_course", float),
         ("Datestamp", "datestamp", datestamp),
         ("Magnetic Variation", "mag_variation"),
-        ("Magnetic Variation Direction", "mag_var_dir"),
+        ("Magnetic Variation Direction", "mag_var_dir")
     
