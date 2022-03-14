@@ -3,7 +3,8 @@
 
 import socket
 
-msgFromClient       = "Hello UDP Server"
+msgFromClient       = "Hello UDP Server! The client is sending a message"
+
 bytesToSend         = str.encode(msgFromClient)
 serverAddressPort   = ("127.0.0.1", 20001)
 bufferSize          = 1024
@@ -16,6 +17,6 @@ UDPClientSocket.sendto(bytesToSend, serverAddressPort)
 
 msgFromServer = UDPClientSocket.recvfrom(bufferSize)
 
-msg = "Message from Server {}".format(msgFromServer[0])
+msg = "Message from Server: {}".format(msgFromServer[0])
 
 print(msg)

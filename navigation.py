@@ -9,14 +9,15 @@
 
 import pynmea2
 
-'''
 class NavegacaoGlobal(self, origemLat, origemLong, destinoLat, destinoLong):
     self.origemLat = origemLat
     self.origemLong = origemLong
     self.destinoLat = destinoLat
     self.destinoLong = destinoLong
+    return True
 
-'''
+class NavegacaoLocal(self, posAtualLat, posAtualLong):
+    return True
 
 def mostraInformacoes(msgNMEA):
     msg = pynmea2.parse(msgNMEA)

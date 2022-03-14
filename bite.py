@@ -16,6 +16,9 @@ def checkEcobatimetro():
 def checkRadar():
     return
 
+def checkBateria():
+    return
+
 def checkGeral():
     checkCamera()
     checkGiro()
@@ -23,3 +26,4 @@ def checkGeral():
     checkAIS()
     checkEcobatimetro()
     checkRadar()
+    checkBateria()
