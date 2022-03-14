@@ -1,5 +1,7 @@
 # EWAS v0.1
 # Módulo de Comunicações
+# Referências
+# 1. https://pythontic.com/modules/socket/udp-client-server-example
 
 import socket
 

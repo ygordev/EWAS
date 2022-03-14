@@ -1,3 +1,6 @@
+# Referências
+# 1. https://pythontic.com/modules/socket/udp-client-server-example
+
 import socket
 
 msgFromClient       = "Hello UDP Server"
