@@ -1,6 +1,6 @@
 
 # EWAS - Electronic Warfare Autonomous Ship
-Descrição: --
+Descrição: Este repositório é parte constituinte do Trabalho de Conclusão de Curso do C-ApA-GE.
 
 ## Autores
 - [Ygor W. S. Moreira Lima](https://www.github.com/ygordev)
